@@ -237,11 +237,12 @@ section .title::after{
 }
 .about .about-content .left{
     width: 45%;
+   
 }
 .about .about-content .left img{
     height: 400px;
     width: 350px;
-    object-fit:fill;
+    object-fit:cover;
     border-radius: 8px;
 }
 .about .about-content .right{
@@ -431,6 +432,8 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: #efe7ff;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -461,7 +464,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #d90429!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -573,10 +576,14 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.contact .row i{
+    font-size: 25px;
+    color: crimson;
+}
 
 /* footer section styling */
 footer{
-    background: rgb(220, 20, 60);
+    background: rgb(220, 20, 60)        ;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
